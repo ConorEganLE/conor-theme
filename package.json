@@ -1,0 +1,23 @@
+{
+	"name":"theme-conor",
+	"displayName":"%displayName%",
+	"description":"%description%",
+	"version":"1.0.0",
+	"publisher":"conor",
+	"license":"MIT",
+	"engines":{
+		"vscode":"*"
+	},
+	"contributes":{
+		"themes":[{
+			"id":"Conor",
+			"label":"%themeLabel%",
+			"uiTheme":"vs-dark",
+			"path":"./themes/conor-color-theme.json"
+		}]
+	},
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/ConorEganLE/conor-theme.git"
+	}
+}
